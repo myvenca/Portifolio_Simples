@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyeJogo.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    
+    <!-- Iremos criar um joguinho da Velha, só pra deixar claro, encontrei videos 
+    de como fazer e tentei fazer igual merito de quem criou! -->
+    <h1>JOGO DA VELHA</h1>
+    <div class="board" id="board">
+        <button onclick="makeMove(0)" id="btn0"></button>
+        <button onclick="makeMove(1)" id="btn1"></button>
+        <button onclick="makeMove(2)" id="btn2"></button><br>
+        <button onclick="makeMove(3)" id="btn3"></button>
+        <button onclick="makeMove(4)" id="btn4"></button>
+        <button onclick="makeMove(5)" id="btn5"></button><br>
+        <button onclick="makeMove(6)" id="btn6"></button>
+        <button onclick="makeMove(7)" id="btn7"></button>
+        <button onclick="makeMove(8)" id="btn8"></button>
+    </div>
+    <p id="result"></p>
+    
+    <!-- Importando o jogo  -->
+    <script src="jogoDaVelha.js"></script>
+
+    <!-- Copy -->
+    <footer>
+        &copy; <em id="date"></em>Mychell Oliveira
+    </footer>
+</body>
+</html>

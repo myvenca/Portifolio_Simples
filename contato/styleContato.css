@@ -1,0 +1,23 @@
+body {
+    color: aliceblue;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    color: #5BBE42;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 18px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
